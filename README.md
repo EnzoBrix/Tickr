@@ -25,6 +25,18 @@
 
 ## Installation
 
+### Download Release
+
+1. Download the latest release from the [Releases page](https://github.com/EnzoBrix/Tickr/releases)
+2. Move `Tickr.app` to your Applications folder
+3. Remove the quarantine attribute (required for unsigned apps):
+   ```bash
+   xattr -d com.apple.quarantine /Applications/Tickr.app
+   ```
+4. Launch Tickr from Applications
+
+### Build from Source
+
 1. Clone the repository
 2. Open `Tickr.xcodeproj` in Xcode
 3. Build and run
